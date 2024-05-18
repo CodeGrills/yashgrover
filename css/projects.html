@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Projects</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+  }
+  
+  .project {
+    margin-bottom: 80px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .project:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .project-content {
+    padding: 20px;
+  }
+  
+  .project h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  .project p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ddd;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="project">
+    <img src="https://via.placeholder.com/800x200" alt="Sorting Visualizer">
+    <div class="project-content">
+      <h2>Sorting Visualizer</h2>
+      <p>A web application to visualize various sorting algorithms such as bubble sort, quick sort, and merge sort in real-time.</p>
+    </div>
+  </div>
+  
+  <div class="project">
+    <img src="https://via.placeholder.com/800x200" alt="Online Code Editor">
+    <div class="project-content">
+      <h2>Online Code Editor</h2>
+      <p>An online code editor built with React and CodeMirror that supports multiple programming languages and features syntax highlighting, code execution, and sharing.</p>
+    </div>
+  </div>
+  
+  <!-- Add more projects as needed -->
+</div>
+
+<script>
+  // Your JavaScript code can go here if you have any interactive features
+</script>
+
+</body>
+</html>
